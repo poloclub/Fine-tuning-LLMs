@@ -1,4 +1,4 @@
-# Fine-tuning LLMs tutorial
+# Tutorial for fine-tuning LLMs
 
 This is a tutorial for fine-tuning open source LLMs using QLoRA on your custom private data that is formatted in **raw text** for **free on Google Colab**.
 
@@ -13,6 +13,8 @@ This is a tutorial for fine-tuning open source LLMs using QLoRA on your custom p
 Open source LLMs like *Llama-2 7B chat* are useful for applications that involve conversations and **chatbot-like dialogue use cases**. However, these pre-trained models lack specific information due to knowledge cutoffs and do not have knowledge about your private data. Fine-tuning LLMs is a great way to "teach" these models your private data while keeping memory requirements low. We'll be using the data about the Hawaii wildfires in August 2023 sourced from the report of the Maui Police department found [here](https://medium.com/r?url=http%3A%2F%2Fwww.mauipolice.com%2Fuploads%2F1%2F3%2F1%2F2%2F131209824%2Fpre_aar_master_copy_final_draft_1.23.24.pdf). We've copied the data of the PDF into multiple text files without any additional formatting. This tutorial uses the Nvidia T4 GPU with **16 GB of VRAM** that is offered in the **free version of Google Colab**. We'll be using a quantization technique- **QLoRA**, for quantizing parameter weights to 4 bits to reduce memory requirements and increase training speed, ensuring that we don't reach the bottleneck memory.
 
 ## Getting started
+
+Download the notebook [here](https://github.com/Sripal1/Fine-tuning-LLMs/blob/main/Fine_tune_LLMs_on_custom_data.ipynb) to run it locally or click [here](https://colab.research.google.com/drive/1X51XC2phnD1epk5c1w9J0GnUO0BmrTRM?usp=sharing) to load it in Google Colab. Then, run all the cells sequentially to get your fine-tuned model!
 
 Since Llama-2 is a gated model, do the following steps to get access to the model:
 
