@@ -32,4 +32,4 @@ Since Llama-2 is a gated model, do the following steps to get access to the mode
 [Polo Chau](https://www.linkedin.com/in/polochau/),  Associate Professor at Georgia Tech.
 
 ## Contact
-If you have any questions, please feel free to reach out to [Sri Ranganathan Palaniappan](mailto:spalaniappan9@gatech.edu?subject=LLM%20Fine-tuning%20tutorial) (BS CS @Georgia Tech).
+If you have any questions, please feel free to reach out to [Sri Ranganathan Palaniappan](mailto:spalaniappan9@gatech.edu?subject=LLM%20Fine-tuning%20tutorial) (BS CS@Georgia Tech).
